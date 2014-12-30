@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="weather_style.css">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap.min.js"></script>
+    <script src="weather.js"></script>
+  </head>
+
+  <div class="container">
+
+    <div class="col-md-12" id = "columns">
+      <div class="col-md-offset-2">
+      <!-- MoBay panel -->
+        <div class="col-md-4" id = "column1">
+          <h3>Montego Bay</h3>
+          <div class="col-md-4" id = "Montego_Bay">
+            Data Area
+
+            <button type="button" class="btn btn-default" id = "button_mbay" onclick="mobay_check()">
+              Step 1. Weather Check
+            </button>
+
+            <button type="button" class="btn btn-default" id = "button_mbay" onclick="weatherCheck(Montego_Bay)">
+              Step 2. Employee Actions
+            </button>
+          </div>
+        </div>
+
+        <!-- Kingston panel -->
+        <div class="col-md-4 col-md-offset-1" id = "column2">
+          <h3>Kingston </h3>
+          <div class="col-md-4" id = "Kingston">
+            Data Area
+
+            <button type="button" class="btn btn-default" id = "button_kgn" onclick="kgn_check()">
+              Step 1. Weather Check
+            </button>
+
+            <button type="button" class="btn btn-default" id = "button_kgn" onclick="weatherCheck(Kingston)">
+              Step 2. Employee Actions
+            </button>
+            <!--<script type="text/javascript">
+              
+            </script> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</html>
